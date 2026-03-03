@@ -16,7 +16,7 @@ const layerAnchors = {
   bottom: {
     top: 270,
     width: 400,
-    height: 350
+    height: 250
   }
 };
 // Controls visual stacking order
@@ -54,41 +54,41 @@ const clothingItems = [
   price: 35,
   width: 360,
   height: 230,
-  images: ["budget_pick1.png","budget_pick2.png","budget_pick3.png"]
+  images: ["images/Budget_Pick/budget_pick1.png","images/Budget_Pick/budget_pick2.png","images/Budget_Pick/budget_pick3.png"]
 },
 {
-  name: "Standard Choice: Tops",
+  name: "Standard: Tops",
   category: "top",
   price: 65,
    yOffset: -20,
-  images: ["smart_choice1.png","smart_choice2.png","smart_choice3.png"]
+  images: ["images/Smart_Pick/smart_choice1.png","images/Smart_Pick/smart_choice2.png","images/Smart_Pick/smart_choice3.png"]
 },
 {
   name: "Luxury Choice: Tops",
   category: "top",
    yOffset: -8,
   price: 110,
-  images: ["luxury_pick1.png","luxury_pick2.png","luxury_pick3.png"]
+  images: ["images/Luxury_Pick/luxury_pick1.png","images/Luxury_Pick/luxury_pick2.png","images/Luxury_Pick/luxury_pick3.png"]
 },
 {
   name: "Basic Pick: Bottoms",
   category: "bottom",
   price: 35,
-  images: ["budget_pants1.png","budget_pants2.png","budget_pants3.png"]
+  images: ["images/Budget_Pick/budget_pants1.png","images/Budget_Pick/budget_pants2.png","images/Budget_Pick/budget_pants3.png"]
 }
 ,
 {
   name: "Standard Choice: Bottoms",
   category: "bottom",
   price: 65,
-  images: ["smart_pants1.png","smart_pants2.png","smart_pants3.png"]
+  images: ["images/Smart_Pick/smart_pants1.png","images/Smart_Pick/smart_pants2.png","images/Smart_Pick/smart_pants3.png"]
 }
 ,
 {
   name: "Luxury Pick: Bottoms",
   category: "bottom",
   price: 110,
-  images: ["luxury_pants1.png","luxury_pants2.png","luxury_pants3.png"]
+  images: ["images/Luxury_Pick/luxury_pants1.png","images/Luxury_Pick/luxury_pants2.png","images/Luxury_Pick/luxury_pants3.png"]
 }
 ];
 
