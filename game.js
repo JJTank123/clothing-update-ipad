@@ -16,7 +16,7 @@ const layerAnchors = {
   bottom: {
     top: 270,
     width: 400,
-    height: 250
+    height: 350
   }
 };
 // Controls visual stacking order
